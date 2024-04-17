@@ -7,3 +7,12 @@
     padding: 0%;
 }
 
+
+nav{
+    height: 110px;
+    background-color: #d5af8e;
+}
+
+.nav-link{
+    color: rgb(105, 51, 15);
+}
