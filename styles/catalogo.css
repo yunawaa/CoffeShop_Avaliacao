@@ -1,0 +1,17 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+    --brown:#a17c5c;
+    --darkbrown: rgb(105, 51, 15);
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: var(--darkbrown);
+    font-size: 55px;
+}

@@ -1,18 +1,76 @@
+@font-face {
+    font-family: latte;
+    src: url(/fonts/Coffee\ Latte.ttf);
+    font-size: cold;
+    src: url(/fonts/coldcoffee__2005______.ttf);
+}
+
 :root{
     --brown:#a17c5c;
+    --darkbrown: rgb(105, 51, 15);
 }
 
 *{
     margin: 0%;
     padding: 0%;
 }
-
+body{
+    width: 100%;
+    height: 100vh;
+}
 
 nav{
     height: 110px;
     background-color: #d5af8e;
+    font-family: cold;
+    font-size: xx-large;
+}
+.nav-bar-brand{
+    font-size: xx-large;
 }
 
 .nav-link{
     color: rgb(105, 51, 15);
+}
+
+h2{
+    font-family: latte;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    text-align: center;
+    margin-top: 80px;
+    color: var(--darkbrown);
+}
+
+footer {
+    background-color: #a17c5c;
+    color: #fff;
+    padding: 20px 0;
+}
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .container p {
+    margin: 10px 0;
+  }
+
+  .color-button{
+    background-color: var(--darkbrown);
+    border: none;
+}
+.color-button:hover{
+    background-color: var(--brown);
+}
+
+h4{
+    color: var(--darkbrown);
+}
+
+section{
+    margin-bottom: 40px;
 }
